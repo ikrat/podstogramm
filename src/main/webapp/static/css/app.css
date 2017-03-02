@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+	background-color: #f9f9f9;
+}
+
+.myinsta .avatar {
+	width: 150px;
+	height: 150px;
+}
+
+.cont {
+	padding-top: 60px !important;
+	padding: 15px;
+	max-width: 935px;
+	margin: 0 auto 30px;
+}
+
+.myinsta .photo {
+	width: 100%;
+}
+
+.col-md-12 {
+	padding-bottom: 20px !important;
+}
+
+.myinsta .small {
+	width: 28px;
+	height: 28px;
+}
