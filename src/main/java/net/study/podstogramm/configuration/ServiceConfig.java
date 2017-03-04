@@ -10,10 +10,10 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 
 @Configuration
-@ComponentScan({ "net.study.myinsta.service.impl", 
-				 "net.study.myinsta.controller",
-				 "net.study.myinsta.filter", 
-				 "net.study.myinsta.listener"})
+@ComponentScan({ "net.study.podstogramm.service.impl", 
+				 "net.study.podstogramm.controller",
+				 "net.study.podstogramm.filter", 
+				 "net.study.podstogramm.listener"})
 public class ServiceConfig {
 	
 	@Bean

@@ -1,15 +1,13 @@
-<%@ page pageEncoding="UTF-8" contentType="text/html; charset=UTF-8"
-	trimDirectiveWhitespaces="true"%>
+<%@ page pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" trimDirectiveWhitespaces="true"%>
 <%@ taglib prefix="pod" tagdir="/WEB-INF/tags"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 
-<div class="cont">
-	<div class="row">
-		<div class="col-md-12">
-			<pod:podst-main />
-			<pod:podst-objective />
-		</div>
-		<div class="col-md-12">
-			<pod:podst-content />
+<div class="cont-welcome">
+	<div class="panel panel-default">
+		<div class="row">
+			<pod:welcome-main />
+			<hr>
+			<pod:welcome-comments />			
 		</div>
 	</div>
 </div>

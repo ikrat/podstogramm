@@ -37,7 +37,7 @@ public class ResumeWebApplicationInitializer implements WebApplicationInitialize
 
 	private WebApplicationContext createWebApplicationContext(ServletContext container) {
 		AnnotationConfigWebApplicationContext ctx = new AnnotationConfigWebApplicationContext();
-		ctx.scan("net.study.myinsta.configuration");
+		ctx.scan("net.study.podstogramm.configuration");
 		ctx.setServletContext(container);
 		ctx.refresh();
 		return ctx;

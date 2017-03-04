@@ -20,7 +20,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @Configuration
 @PropertySource("classpath:application.properties")
 @EnableTransactionManagement
-@EnableJpaRepositories("net.study.myinsta.repository.storage")
+@EnableJpaRepositories("net.study.podstogramm.repository.storage")
 public class JPAConfig {
 
 	@Autowired
@@ -52,7 +52,7 @@ public class JPAConfig {
 		entityManagerFactory.setDataSource(dataSource());
 		entityManagerFactory.setPersistenceProviderClass(HibernatePersistenceProvider.class);
 		entityManagerFactory.setJpaVendorAdapter(new HibernateJpaVendorAdapter());
-		entityManagerFactory.setPackagesToScan("net.study.myinsta.entity");
+		entityManagerFactory.setPackagesToScan("net.study.podstogramm.entity");
 		entityManagerFactory.setJpaProperties(hibernateProperties());
 		return entityManagerFactory;
 	}

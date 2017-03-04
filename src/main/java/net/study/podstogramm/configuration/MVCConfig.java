@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan({ "net.study.myinsta.controller" })
+@ComponentScan({ "net.study.podstogramm.controller" })
 public class MVCConfig extends WebMvcConfigurerAdapter {
 	
 	@Bean

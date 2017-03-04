@@ -4,27 +4,90 @@ body {
 	background-color: #f9f9f9;
 }
 
-.myinsta .avatar {
+.avatar {
 	width: 150px;
 	height: 150px;
 }
 
 .cont {
-	padding-top: 60px !important;
-	padding: 15px;
+	padding: 0;
 	max-width: 935px;
-	margin: 0 auto 30px;
+	margin: 60px auto 0;
 }
 
-.myinsta .photo {
+.photo {
 	width: 100%;
 }
 
-.col-md-12 {
+.col-md-12{
 	padding-bottom: 20px !important;
 }
 
-.myinsta .small {
+.small {
 	width: 28px;
 	height: 28px;
+}
+
+.edit-small {
+	width: 40px;
+	height: 40px;
+}
+
+.col-md-4, .col-md-8, .col-md-12, .col-md-3, .col-md-2 {
+	padding-right: 0 !important;
+}
+
+.row {
+	margin: 0 !important;
+}
+
+.xs-option-container {
+	margin: 10px 0;
+}
+
+.xs-option-container a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+@media (min-width: 767px) {
+	#editLinks {
+		display: block;
+	}
+}
+
+.list-group-item {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.check {
+	bottom: 3px;
+	padding-right: 0;
+	padding-bottom: 0;
+}
+
+.nobot {
+	padding-bottom: 0 !important;
+}
+
+.cont-welcome {
+	padding: 0;
+	max-width: 600px;
+	margin: 60px auto 0;
+}
+
+.photo-welcome {
+	width: 100%;
+}
+
+.title-welcome {
+	padding: 0;
+	padding-top: 20px;
+}
+
+h5 {
+	margin-top: 0 !important;
+	margin-bottom: 10px !important;
 }
