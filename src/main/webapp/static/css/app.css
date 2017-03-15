@@ -19,10 +19,6 @@ body {
 	width: 100%;
 }
 
-.col-md-12{
-	padding-bottom: 20px !important;
-}
-
 .small {
 	width: 28px;
 	height: 28px;
@@ -31,10 +27,6 @@ body {
 .edit-small {
 	width: 40px;
 	height: 40px;
-}
-
-.col-md-4, .col-md-8, .col-md-12, .col-md-3, .col-md-2 {
-	padding-right: 0 !important;
 }
 
 .row {
@@ -69,7 +61,7 @@ body {
 }
 
 .nobot {
-	padding-bottom: 0 !important;
+	padding-bottom: 0;
 }
 
 .cont-welcome {
@@ -83,11 +75,51 @@ body {
 }
 
 .title-welcome {
-	padding: 0;
-	padding-top: 20px;
+	padding: 14px 20px 14px;
 }
 
 h5 {
 	margin-top: 0 !important;
 	margin-bottom: 10px !important;
 }
+
+.logo {
+	width: 175px;
+	height: 51px;
+}
+
+.logotype {
+	padding: 20px 0 0;
+}
+
+.fb-button {
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+.input-area {
+	padding-bottom: 15px;
+}
+
+.welcome-content {
+	padding: 0 0 15px;
+}
+
+.links {
+	padding-bottom: 15px;
+}
+
+.small-centered {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ 
+ .help-input {
+ 	margin-bottom: 25px;
+ }
+ 
+ .btn-help {
+ 	width: 20%;
+ 	margin-bottom: 25px;
+ }

@@ -2,8 +2,8 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 
 	<div class="col-xs-12 col-md-12 col-sm-12">
-		<div class="col-xs-4 col-md-4 col-sm-4" align="left">
-			<h3>Подписаться на:</h3>
+		<div class="col-xs-12 col-md-12 col-sm-12" align="left">
+			<h3>Subscribe to:</h3>
 		</div>
 	</div>
 	<div class="col-xs-12 col-md-12 col-sm-12">
@@ -15,8 +15,8 @@
  			 </div>
 		</div>
 		<div class="col-xs-11 col-md-11 col-sm-11" style="padding-left: 0;">
-			<h4><b>Эл.письма с новостями</b></h4>
-			<h4>Узнавайте о новых продуктах первыми.</h4>
+			<h4><b>News emails</b></h4>
+			<h4>Find out first about new products.</h4>
 		</div>
 	</div>
 	<div class="col-xs-12 col-md-12 col-sm-12">
@@ -28,8 +28,8 @@
  			 </div>
 		</div>
 		<div class="col-xs-11 col-md-11 col-sm-11" style="padding-left: 0;">
-			<h4><b>Эл.письма с напоминаниями</b></h4>
-			<h4>Оставайтесь в курсе того, что вы могли пропустить.</h4>
+			<h4><b>Reminder emails</b></h4>
+			<h4>Stay up to date with things you may have missed.</h4>
 		</div>
 	</div>
 	<div class="col-xs-12 col-md-12 col-sm-12">
@@ -41,8 +41,8 @@
  			 </div>
 		</div>
 		<div class="col-xs-11 col-md-11 col-sm-11" style="padding-left: 0;">
-			<h4><b>Эл. письма о продуктах</b></h4>
-			<h4>Получайте советы по использованию инструментов Instagram.</h4>
+			<h4><b>Product emails</b></h4>
+			<h4>Get tips on using Podstogramm's tools.</h4>
 		</div>
 	</div>
 	<div class="col-xs-12 col-md-12 col-sm-12">
@@ -54,8 +54,8 @@
  			 </div>
 		</div>
 		<div class="col-xs-11 col-md-11 col-sm-11" style="padding-left: 0;">
-			<h4><b>Эл. письма об исследованиях</b></h4>
-			<h4>Оставьте отзыв и примите участие в исследовании.</h4>
+			<h4><b>Research emails</b></h4>
+			<h4>Provide feedback and participate in research studies.</h4>
 		</div>
 	</div>
 	<div class="col-xs-12 col-md-12 col-sm-12">
@@ -67,7 +67,7 @@
  			 </div>
 		</div>
 		<div class="col-xs-11 col-md-11 col-sm-11" style="padding-left: 0;">
-			<h4><b>SMS</b></h4>
-			<h4>Получайте напоминания по SMS.</h4>
+			<h4><b>Text (SMS) Messages</b></h4>
+			<h4>Get reminder notifications delivered by text message.</h4>
 		</div>
 	</div>

@@ -1,11 +1,7 @@
-<%@ tag pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<%@ page pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" trimDirectiveWhitespaces="true"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
-<%@ attribute name="index" required="true" type="java.lang.Object"%>
-<%@ attribute name="photo" required="false" type="net.study.podstogramm.entity.Photo"%>
-
-<div id="ui-item-${index }">
+<c:forEach var="photo" items="${photos }">
 	<div class="col-md-12 title-welcome">
 		<div class="col-md-6">
 			<c:choose>
@@ -17,7 +13,7 @@
 					<img class="img-circle small" alt="avatar" src="${profile.avatar }">
 				</c:otherwise>
 			</c:choose>
-			<b>${photo.profile.login }</b>
+			<b>${profile.login }</b>
 		</div>
 		<div class="col-md-6" align="right">${photo.created }</div>
 	</div>
@@ -30,7 +26,8 @@
 		</h5>
 	</div>
 	<div class="col-md-12 nobot">
-		<a href="/${photo.profile.login }" style="color: #000000;"><b>${photo.profile.login }</b></a>
-		<p style="word-break: break-all;">${photo.content }</p>
+		<h5>
+			<a href="/${profile.login }" style="color: #000000;"><b>${profile.login }</b></a> ${photo.content }
+		</h5>
 	</div>
-</div>
+</c:forEach>
